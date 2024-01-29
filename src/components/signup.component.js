@@ -34,7 +34,7 @@ export default class SignUp extends Component {
     .then((res)=> res.json())
     .then((data)=>{
       console.log(data, "userRegistor");
-      if (data.status == "ok"){
+      if (data.status === "ok"){
       alert("Signup Successfull");
     } 
     });
