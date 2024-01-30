@@ -8,7 +8,7 @@ export default class UserDetails extends Component {
     };
  }
 componentDidMount(){
-    fetch ("http://localhost:5000/userData",{
+    fetch ("https://password-resetbackend.onrender.com/userData",{
         method:"POST",
         crossdomian:true,
         headers:{
