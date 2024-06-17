@@ -36,7 +36,7 @@ export default class SignUp extends Component {
       // console.log(data, "userRegistor");
       if (data.status === "ok"){
       alert("Signup Successfull");
-    } console.error(data);
+    }
     });
   }
 
